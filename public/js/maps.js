@@ -1,0 +1,1 @@
+(()=>{var e=document.getElementById("map"),t=document.getElementById("open_map"),n=document.getElementById("open_map_phone");t&&t.addEventListener("click",(function(n){e.classList.toggle("hidden"),"Abrir mapa"===t.textContent?t.textContent="Abrir mapa":t.textContent="Cerrar Mapa"})),n&&n.addEventListener("click",(function(t){e.classList.toggle("hidden")}))})();
